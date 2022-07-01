@@ -12,6 +12,7 @@ export const style = StyleSheet.create({
     borderWidth: 1,
     paddingLeft: 10,
     marginBottom: 5,
+    borderRadius: 50
   },
   lastInput: {
     marginBottom: 15,
