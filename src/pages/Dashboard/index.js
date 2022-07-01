@@ -5,7 +5,6 @@ import style from './style';
 export const Dashboard = ({ navigation }) => (
   
   <View style={style.container}>
-    
     <ScrollView style={style.scrollView}>
       <Image style={style.image} source={{ uri: "https://seeklogo.com/images/S/soccer-bets-logo-E899551478-seeklogo.com.png" }}  />
       <Text style={style.titulo}> Soccer bets</Text>

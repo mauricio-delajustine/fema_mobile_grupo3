@@ -8,7 +8,6 @@ import Dashboard from './src/pages/Dashboard';
 import Aposta from './src/pages/Aposta';
 import { Ionicons } from '@expo/vector-icons';
 
-
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
