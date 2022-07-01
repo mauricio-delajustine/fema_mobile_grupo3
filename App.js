@@ -3,9 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import AddUser from './src/pages/AddUser';
-import Dashboard from './src/pages/Dashboard';
-import Aposta from './src/pages/Aposta';
+import AddUser from './src/Pages/AddUser';
+import Dashboard from './src/Pages/Dashboard';
+import Aposta from './src/Pages/Aposta';
 import { Ionicons } from '@expo/vector-icons';
 
 const Stack = createStackNavigator();
@@ -32,9 +32,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen options={{ title: 'Login' }} name="Dashboard" component={Dashboard} />
-      <Stack.Screen options={{ title: 'Cadastro de usuário' }} name="AddUser" component={AddUser} />
-      <Stack.Screen options={{ title: 'Faça sua aposta' }} name="Aposta" component={Aposta} />
+        <Stack.Screen options={{ title: 'Login' }} name="Dashboard" component={Dashboard} />
+        <Stack.Screen options={{ title: 'Cadastro de usuário' }} name="AddUser" component={AddUser} />
+        <Stack.Screen options={{ title: 'Faça sua aposta' }} name="Aposta" component={Aposta} />
       </Stack.Navigator>
     </NavigationContainer>
   );
