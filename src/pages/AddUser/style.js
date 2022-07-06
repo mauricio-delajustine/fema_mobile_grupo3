@@ -1,28 +1,32 @@
 import { StyleSheet } from 'react-native';
 
 export const style = StyleSheet.create({
+
   container: {
     padding: 15,
-    backgroundColor: '#dcdcdc'
+    backgroundColor: '#019934'
   },
-  label: {
-    marginTop: 20,
-  },
-  input: {
 
+  label: {
+    color: 'white',
+    marginTop: 25,
+    fontWeight: 'bold'
+  },
+
+  input: {
     borderRadius: 50,
     alignItems: "center",
     justifyContent: "center",
-    width: "80%",
+    width: "100%",
     backgroundColor: "white",
     paddingTop: 5,
     paddingBottom: 5,
-    marginLeft: 50,
-    marginTop: 30,
-    textAlign: "center",
+    marginTop: 10,
+    textAlign: "center"
   },
+
   lastInput: {
-    marginBottom: 15,
+    marginBottom: 40
   },
 
 });
