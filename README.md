@@ -9,8 +9,3 @@ https://docs.expo.dev/guides/using-firebase/
 
 Firebase install
 https://www.youtube.com/watch?v=JEDcCCRZUyw
-
-Firebase criar conta e banco de dados
-firebase.google.com
-
-Teste

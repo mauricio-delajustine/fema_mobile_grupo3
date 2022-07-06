@@ -1,13 +1,12 @@
 import React from 'react';
-import { Text, View, Button, ScrollView, Image,TextInput, TouchableOpacity } from 'react-native';
+import { Text, View, Button, ScrollView, Image, TextInput, TouchableOpacity } from 'react-native';
 import style from './style';
 
 export const Dashboard = ({ navigation }) => (
-  
+
   <View style={style.container}>
     <ScrollView style={style.scrollView}>
-      <Image style={style.image} source={{ uri: "https://seeklogo.com/images/S/soccer-bets-logo-E899551478-seeklogo.com.png" }}  />
-      <Text style={style.titulo}> Soccer bets</Text>
+      <Image style={style.image} source={{ uri: "https://seeklogo.com/images/S/soccer-bets-logo-E899551478-seeklogo.com.png" }} />
       <TextInput style={style.input}
         placeholder='Usuário'
       />
@@ -18,13 +17,12 @@ export const Dashboard = ({ navigation }) => (
         <Text style={style.textButtonCalculator} onPress={() => navigation.navigate('Aposta')}>Entrar</Text>
       </TouchableOpacity>
     </ScrollView>
-  
-    <Button
-      title='Cadastrar novo usuário'
-      onPress={() => navigation.navigate('AddUser')}
-    />
-  </View>
 
-);
+    <TouchableOpacity style={style.botaocadastro}>
+      <Text style={style.textobotaocadastrar} onPress={() => navigation.navigate('AddUser')}>Criar cadastro</Text>
+    </TouchableOpacity>
 
-export default Dashboard;
+    </View>
+    );
+
+    export default Dashboard;
